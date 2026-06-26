@@ -24,7 +24,7 @@ A Flutter application developed for the Module 5 Assignment.
 |----------|------------|
 | ![](assets/screenshots/summary.png) | ![](assets/screenshots/dark_theme.png) |
 
-| No SUbject | No Summary |
+| No Subject | No Summary |
 |----------|------------|
 | ![](assets/screenshots/no_subject.png) | ![](assets/screenshots/no_summary.png) |
 ## Technologies
