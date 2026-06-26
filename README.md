@@ -1,16 +1,62 @@
-# student_grade_tracker_app
+# Student Grade Tracker
 
-A new Flutter project.
+A Flutter application developed for the Module 5 Assignment.
+
+## Features
+
+- Add subjects with marks
+- Automatic grade calculation (A, B, C, F)
+- Subject list with swipe-to-delete
+- Academic summary dashboard
+- Live average calculation
+- Passing subject counter
+- Light & Dark Theme
+- Material 3 Design
+- Provider State Management
+- Form Validation
+- Responsive UI
+
+## Technologies
+
+- Flutter
+- Dart
+- Provider
+- Material 3
+
+## Project Structure
+
+```
+lib/
+├── models/
+├── providers/
+├── screens/
+├── theme/
+├── utils/
+└── widgets/
+```
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+```bash
+flutter pub get
+flutter run
+```
 
-A few resources to get you started if this is your first Flutter project:
+## Requirements Covered
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- ✅ 3 Screens
+- ✅ Bottom Navigation
+- ✅ Theme Toggle
+- ✅ Private `_mark`
+- ✅ Grade Getter
+- ✅ `.where()`
+- ✅ Form Validation
+- ✅ ListView.builder
+- ✅ Dismissible
+- ✅ Provider State Management
+- ✅ No setState()
+- ✅ Material 3
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Author
+
+**Sazia Sultana Shammi**

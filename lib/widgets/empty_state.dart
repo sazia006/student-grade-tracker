@@ -14,26 +14,40 @@ class EmptyState extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    final colors = Theme.of(context).colorScheme;
+    final colorScheme = Theme.of(context).colorScheme;
+    final textTheme = Theme.of(context).textTheme;
 
     return Center(
       child: Padding(
-        padding: const EdgeInsets.all(24),
+        padding: const EdgeInsets.symmetric(horizontal: 32),
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            Icon(icon, size: 90, color: colors.primary),
-            const SizedBox(height: 20),
+            CircleAvatar(
+              radius: 45,
+              backgroundColor: colorScheme.primaryContainer,
+              child: Icon(icon, size: 45, color: colorScheme.primary),
+            ),
+
+            const SizedBox(height: 24),
+
             Text(
               title,
-              style: Theme.of(context).textTheme.headlineSmall,
               textAlign: TextAlign.center,
+              style: textTheme.headlineSmall?.copyWith(
+                fontWeight: FontWeight.bold,
+              ),
             ),
-            const SizedBox(height: 10),
+
+            const SizedBox(height: 12),
+
             Text(
               subtitle,
-              style: Theme.of(context).textTheme.bodyMedium,
               textAlign: TextAlign.center,
+              style: textTheme.bodyLarge?.copyWith(
+                color: colorScheme.onSurfaceVariant,
+                height: 1.5,
+              ),
             ),
           ],
         ),
