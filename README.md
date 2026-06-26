@@ -2,20 +2,31 @@
 
 A Flutter application developed for the Module 5 Assignment.
 
+
 ## Features
 
-- Add subjects with marks
-- Automatic grade calculation (A, B, C, F)
-- Subject list with swipe-to-delete
-- Academic summary dashboard
-- Live average calculation
-- Passing subject counter
-- Light & Dark Theme
-- Material 3 Design
-- Provider State Management
-- Form Validation
-- Responsive UI
+- 📚 Add subjects with marks
+- 📝 Automatic grade calculation using A, B, C and F
+- 📊 Academic summary dashboard
+- 🗑️ Subject lists with Swipe to delete subjects
+- 🌗 Light & Dark mode
+- ✅ Form validation
+- 📱 Material 3 UI
+- ⚡ Provider state management
 
+## 📱 Screenshots
+
+| Add Subject | Subject List |
+|-------------|--------------|
+| ![](assets/screenshots/add_subject.png) | ![](assets/screenshots/subject_list.png) |
+
+| Summary | Dark Theme |
+|----------|------------|
+| ![](assets/screenshots/summary.png) | ![](assets/screenshots/dark_theme.png) |
+
+| No SUbject | No Summary |
+|----------|------------|
+| ![](assets/screenshots/no_subject.png) | ![](assets/screenshots/no_summary.png) |
 ## Technologies
 
 - Flutter
